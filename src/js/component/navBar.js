@@ -4,7 +4,7 @@ import React from "react";
 export function NavBar() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
-			<a className="navbar-brand " href="#">
+			<a className="navbar-brand pl-5" href="#">
 				Start Bootstrap
 			</a>
 			<button
@@ -21,7 +21,7 @@ export function NavBar() {
 			<div
 				className="collapse navbar-collapse "
 				id="navbarSupportedContent">
-				<ul className="navbar-nav ml-auto align-self-end">
+				<ul className="navbar-nav ml-auto pr-5 align-self-end">
 					<li className="nav-item active">
 						<a className="nav-link" href="#">
 							Home <span className="sr-only">(current)</span>
